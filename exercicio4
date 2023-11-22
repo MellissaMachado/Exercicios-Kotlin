@@ -1,0 +1,22 @@
+4 - Faça um programa na Linguagem Kotlin que leia 3 números inteiros e mostre o maior deles.
+fun main() {
+ 
+ val n1: Int = 2976
+ val n2: Int = 1381
+ val n3: Int = 5000
+ val maior = if (n1 > n2 && n1 > n3) {
+ n1
+ } else if (n2 > n1 && n2 > n3) {
+ n2
+ } else {
+ n3
+ }
+ println("O maior número é: $maior")
+}
+5 - Faça um programa na Linguagem Kotlin que efetue a leitura de um número inteiro e apresentar 
+uma mensagem informando se o número é par ou ímpar.
+fun main() {
+ 
+ val n: Int = 25
+ if (n % 2 == 0) {
+ println("O número $n é pa
