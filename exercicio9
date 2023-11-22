@@ -1,0 +1,14 @@
+9 - Faça um programa na Linguagem Kotlin para ler dois valores inteiros para as variáveis A e B e 
+efetuar a troca dos valores de forma que a variável A passe a possuir o valor da variável B e a 
+variável B passe a possuir o valor da variável A. Apresentar os valores trocados.
+
+fun main() {
+ 
+ var a: Int = 1002
+ var b: Int = 2001
+ val trocaValores = a
+ a = b
+ b = trocaValores
+ println("Valor de A: $a")
+ println("Valor de B: $b")
+}
