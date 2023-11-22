@@ -1,0 +1,16 @@
+2 - Faça um programa na Linguagem Kotlin que leia a idade de uma pessoa expressa em ano, mês e 
+dia e mostre-as em dias.
+fun main() {
+ 
+ val anos = 4
+ val meses = 1
+ val dias = 20
+ val totalDias = anosParaDias(anos) + mesesParaDias(meses) + dias
+ println("A idade expressa em dias é: $totalDias dias.")
+}
+fun anosParaDias(anos: Int): Int {
+ return anos * 365 
+}
+fun mesesParaDias(meses: Int): Int {
+ return meses * 30 
+}
