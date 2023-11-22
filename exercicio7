@@ -1,0 +1,16 @@
+7 - Faça um programa na Linguagem Kotlin que efetue a leitura de quatro número inteiros e apresentar os números que são divisíveis por 2 ou 3.
+
+fun main() {
+ 
+ val n1: Int = 46
+ val n2: Int = 93
+ val n3: Int = 35
+ val n4: Int = 74
+ val numeros = listOf(n1, n2, n3, n4)
+ println("Números divisíveis por 2 ou 3:")
+ for (num in numeros) {
+ if (num % 2 == 0 || num % 3 == 0) {
+ println(num)
+}
+ }
+}
