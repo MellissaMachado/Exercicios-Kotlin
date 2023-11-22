@@ -1,0 +1,14 @@
+1 - Faça um programa na Linguagem Kotlin que leia 3 (três) valores inteiros e apresente os 3 
+números em ordem crescente.
+fun main() {
+ 
+ val n1 = 19
+ val n2 = 13
+ val n3 = 16
+ 
+ val listaValores = listOf(n1, n2, n3).sorted()
+ println("Os números em ordem crescente são:")
+ for (num in listaValores) {
+ println(num)
+ }
+}
