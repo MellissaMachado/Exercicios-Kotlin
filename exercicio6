@@ -1,0 +1,12 @@
+6 – Faça um programa na Linguagem Kotlin que efetue a leitura de um valor inteiro, e efetue a sua 
+apresentação, caso o valor não seja maior que três.
+
+fun main() {
+ 
+ val valor: Int = 11
+ if (valor <= 3) {
+ println("O valor digitado é: $valor")
+ } else {
+ println("O valor é maior que três e não será apresentado.")
+ }
+}
