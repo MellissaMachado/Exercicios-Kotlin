@@ -1,0 +1,13 @@
+8 - Faça um programa na Linguagem Kotlin que leia dois valores numéricos e apresentar a diferença do maior para o menor.
+
+fun main() {
+ 
+ val valor1: Int = 16
+ val valor2: Int = 30
+ val diferenca = if (valor1 > valor2) {
+ valor1 - valor2
+ } else {
+ valor2 - valor1
+ }
+ println("A diferença entre os valores é: $diferenca")
+}
